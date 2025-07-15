@@ -1,0 +1,43 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cortex Debug JLINK", //debug 调试名称
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceRoot}/build/F429_TEST.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "serverpath": "D:/Program Files/SEGGER/JLink_V810e/JLinkGDBServerCL.exe",
+            "servertype": "jlink",
+            "device": "STM32F429IGT6", //目标芯片名
+            "svdFile": "C:/Users/crs/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/CMSIS/STM32F429.svd",
+            "liveWatch": {
+                "enabled": true,
+                "samplesPerSecond": 1
+            }
+        },
+        {
+            "name": "cortex-debug DAPLINK",
+            "cwd": "${workspaceRoot}/",
+            "executable": "${workspaceRoot}/build/F429_TEST.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd", //要选择的GDB server
+            "device": "STM32F429IGT6", //
+            "interface": "swd",
+            "configFiles": [
+                "interface/cmsis-dap.cfg",
+                "target/stm32f4x.cfg",
+            ],
+            "runToEntryPoint": "main",
+            "showDevDebugTimestamps": true,
+            "svdFile": "C:/Users/crs/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/CMSIS/SVD/STM32F429.svd",
+            "openOCDLaunchCommands": [
+                "adapter_khz 10000",	
+                "transport select swd",
+                "reset_config none"
+            ],
+        },
+    ]
+}

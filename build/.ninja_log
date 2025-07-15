@@ -1,0 +1,23 @@
+# ninja log v6
+4	1263	7738655483215761	CMakeFiles/output.elf.dir/Core/Src/gpio.c.obj	631085f5c7bbaa73
+54	1352	7738655483714565	CMakeFiles/output.elf.dir/Core/Src/main.c.obj	ea256291b79db914
+105	1441	7738655484223945	CMakeFiles/output.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj	b0a8782fc2b9c60d
+159	1516	7738655484764037	CMakeFiles/output.elf.dir/Core/Src/stm32f4xx_it.c.obj	4c5d91229a562489
+215	1517	7738655485322266	CMakeFiles/output.elf.dir/Core/Src/sysmem.c.obj	6ca23e20155a285
+271	1518	7738655485887383	CMakeFiles/output.elf.dir/Core/Src/system_stm32f4xx.c.obj	37a8f769d69e3ac1
+334	1519	7738655486512913	CMakeFiles/output.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj	4a33421177de3ade
+406	1519	7738655487234562	CMakeFiles/output.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj	125d17fe89cd7c0d
+499	1520	7738655488157965	CMakeFiles/output.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj	7b2b1f1465a15a48
+563	1521	7738655488794674	CMakeFiles/output.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj	c89bb9c9b9034bc6
+631	1521	7738655489484224	CMakeFiles/output.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj	9228282048a9028f
+696	1522	7738655490130001	CMakeFiles/output.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj	dcb10f640a3caa6f
+767	1522	7738655490834014	CMakeFiles/output.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj	8a56d8816b2a5888
+837	1523	7738655491534166	CMakeFiles/output.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj	bd27e7b887dc043c
+905	1523	7738655492222399	CMakeFiles/output.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj	c2984d8519a7f4c6
+982	1562	7738655492992227	CMakeFiles/output.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj	4aa766e70a1b5dda
+1060	1634	7738655493771842	CMakeFiles/output.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj	2a3d01d8d1afbc73
+1353	1687	7738655496696311	CMakeFiles/output.elf.dir/Core/Src/syscalls.c.obj	b2aec19b4890eb98
+1153	1706	7738655494697476	CMakeFiles/output.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj	2dafa392896ed1ce
+1441	1717	7738655497584415	CMakeFiles/output.elf.dir/startup_stm32f429xx.s.obj	5369313829dc54d8
+1265	1756	7738655495824591	CMakeFiles/output.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj	e084b6863023d982
+1756	2274	7738655500733517	output/output.elf	ea6a1b1a0e682a3d
